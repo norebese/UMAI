@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	메인 화면
+	<a href="views/member/memberEnrollForm.jsp">asd</a>
 </body>
 </html>
