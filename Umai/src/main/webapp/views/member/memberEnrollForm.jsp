@@ -73,9 +73,11 @@
 
 .outer {
     background-color: rgb(255, 210, 210);
-    
+    color: #fc765d;
     width: 100%;
     height: 600px;
+    font-weight: bold;
+    font-size: 24px;
     position: relative;
     
 }
