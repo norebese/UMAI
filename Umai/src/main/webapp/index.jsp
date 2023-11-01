@@ -8,5 +8,6 @@
 </head>
 <body>
 	<a href="views/member/memberEnrollForm.jsp">asd</a>
+	<a href="views/announce/announceDetail.jsp">as</a>
 </body>
 </html>

@@ -73,104 +73,56 @@
 
 .outer {
     background-color: rgb(255, 210, 210);
+    
+    width: 100%;
+    height: 600px;
+    position: relative;
+    
 }
 
 
 </style>
-
-    <!-- BootStrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- BootStrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Jquery 3.7.1-->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-
 </head>
 
+<body>
 
+    <jsp:include page="../common/menubar.jsp" />
 
-
-
-
-
-
-<body style="margin: 0; padding: 0;">
-
-    <div class="header">
-        <div>
-            <img id="logo" src="/resources/images/mainLogoWhiteFinal.png" alt="umaiLogo">
-        </div>
-        <div align="center" style="color: white;">
-            <form action="">
-                <input type="radio" name="searchType" checked>지역별
-                &nbsp;&nbsp;&nbsp;
-                <input type="radio" name="searchType">식당별
-                &nbsp;&nbsp;
-                <input type="text" style="width: 30%; height: 30px;" placeholder="식당 이름이나 지역명으로 검색해보세요.">
-                <input type="submit" class="btn btn-sm btn-primary" value="검색">
-            </form>    
-        </div>
-        <div class="noticeFaq">
-            <a href="">공지사항</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="">FAQ</a>
-        </div>
-        <div class="memberInfo">
-            <img src="/resources/images/memberImage.png" alt="userIcon" onclick="openMemberMenu()">
-        </div>
-        <div id="memberMenu" class="memberMenu">
-            <a href="">회원정보 수정</a>
-            <a href="">로그아웃</a>
-            <a href="">회원탈퇴</a>
-        </div>
-    </div>
-
-    <script>
-        function openMemberMenu(){
-            const memberMenu = document.querySelector("#memberMenu");
-            
-            if(memberMenu.style.display !== "none"){
-                memberMenu.style.display = "none";
-            }else{
-                memberMenu.style.display = "flex";
-            }
-        }
-    </script>
-
-    <br>
 
     <div class="outer">
+		<br><br>
+        <form action="insert.me" method="post">
         <table align="center">
             <tr>
-                <input type="text" id="userId" name="userId" required placeholder="아이디를 입력해주세요.">
-                <button type="button" style="font-size: 15px; border: none; height: 35px; background-color: #fc765d; color: white;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">아이디</td>
+                <td><input type="text" id="userId" name="userId" required placeholder="아이디를 입력해주세요."></td>
+                <td><button type="button" style="font-size: 15px; border: none; height: 35px; background-color: #fc765d; color: white;" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
                     중복확인
-                  </button>
+                  </button></td>
             </tr>
             <tr>
-                <td>비밀번호</td>
-                <td><input type="text" name="userPwd" required placeholder="비밀번호를 입력해주세요."></td>
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">비밀번호</td>
+                <td colspan="2"><input type="text" name="userPwd" required placeholder="비밀번호를 입력해주세요."></td>
+                
             </tr>
             <tr>
-                <td>비밀번호 확인</td>
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">비밀번호 확인</td>
                 <td><input type="text" name="userPwdCheck" required placeholder="비밀번호를 확인해주세요"></td>
             </tr>
             <tr>
-                <td>이름</td>
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">이름</td>
                 <td><input type="text" name="userName" required placeholder="이름을 입력해주세요."></td>
             </tr>
             <tr>
-                <td>닉네임</td>
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">닉네임</td>
                 <td><input type="text" name="nicknName" required placeholder="닉네임을 입력해주세요."></td>
             </tr>
             <tr>
-                <td>전화번호</td>
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">전화번호</td>
                 <td><input type="text" name="phone" placeholder="전화번호를 입력해주세요."></td>
             </tr>
             <tr>
-                <td>이메일</td>
+                <td align="right" style="color: #fc765d; font-weight: bold; font-size: 24px;">이메일</td>
                 <td><input type="text" name="email" placeholder="이메일을 입력해주세요."></td>
             </tr>
         </table>
@@ -205,5 +157,9 @@
       </div>
     </div>
   </div>
+  <div class="">
+    
+  </div>
+  </form>
 </body>
 </html>
