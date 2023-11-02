@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>우리 마음 속 이런 맛집</title>
 
 <style>
     .main{
@@ -121,8 +121,121 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 </head>
+<<<<<<< HEAD
 
 <body>
 
+=======
+<body class="main">
+        <div class="plate1" align="center">
+            <div class="plate2">
+                <img src="resources/images/mainLogo.png" alt="logo">
+                <br><br><br>
+                <div class="loginArea" >
+                    <form>
+                        <div id="input-id" >
+                            <strong>&nbsp;ID</strong>
+                            <input type="text"   style="margin-left: 3px;">
+                        </div>
+                        <div id="input-pw">
+                            <strong>PW</strong>
+                            <input type="password">
+                        </div>
+                        <div >
+                            <button id="loginBtn"  type="submit" class="btn btn-sm btn-primary">로그인</button>
+                        </div>
+
+                    </form>
+                     <div id="sub-menu">
+                    
+                    <!-- 회원 가입창으로 이동-->
+                    <button onclick="location.href=''" style="border: none; background: white; font-size: 13px;" type="button">
+                        회원가입
+                    </button>    
+
+                    <!-- ID 찾기 모달 버튼 -->
+                    <button style="border: none; background: white; font-size: 13px;" type="button" data-bs-toggle="modal" data-bs-target="#findId">
+                    아이디 찾기
+                    </button>
+                
+                    <!-- ID 찾기 모달 -->
+                    <div class="modal" id="findId">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                    
+                            <!-- ID 찾기 모달 헤더 -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">아이디 찾기</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- ID 찾기 모달 바디 -->
+                            <div class="modal-body">
+                                <b>정보를 입력해주세요.</b>
+                                <form action="">
+                                    <div>
+                                        &nbsp;&nbsp;&nbsp;이름<input type="text">
+                                    </div>
+                                    <div>
+                                        이메일<input type="text">
+                                    </div>
+                                
+                            </div>
+                    
+                            <!-- ID 찾기 모달 푸터 -->
+                            <div class="modal-footer">
+                                <input type="submit" class="btn btn-sm" style="background: #fc765d; color: white; margin-bottom: 10px;" value="아이디 찾기">
+                                <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal">닫기</button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- PW 찾기 모달 버튼 -->
+                <button style="border: none; background: white; font-size: 13px;" type="button" data-bs-toggle="modal" data-bs-target="#findPw">
+                    비밀번호 찾기
+                    </button>
+                
+                    <!-- PW 찾기 모달 -->
+                    <div class="modal" id="findPw">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                    
+                            <!-- PW 찾기 모달 헤더 -->
+                            <div class="modal-header">
+                            <h4 class="modal-title">비밀번호 찾기</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                    
+                            <!-- PW 찾기 모달 바디 -->
+                            <div class="modal-body">
+                                <b>정보를 입력해주세요.</b>
+                                <form action="">
+                                <div>
+                                    아이디<input type="text">
+                                </div>
+                                <div>
+                                    &nbsp;&nbsp;&nbsp;이름<input type="text">
+                                </div>
+                                <div>
+                                    이메일<input type="text">
+                                </div>
+                            </div>
+                    
+                            <!-- PW 찾기 모달 푸터 -->
+                            <div class="modal-footer">
+                                <input type="submit" class="btn btn-sm" style="background: #fc765d; color: white; margin-bottom: 10px;" value="비밀번호 찾기">
+                                <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal">닫기</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+>>>>>>> 4741e25c2ca07d6ea216141ec69a7e338d4fe185
 </body>
 </html>
