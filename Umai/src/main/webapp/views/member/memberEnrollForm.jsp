@@ -71,28 +71,49 @@
     margin-bottom: 6px;
 }
 
-.outer {
+html,body,
+    .outer {
     background-color: rgb(255, 210, 210);
-    color: #fc765d;
     width: 100%;
     height: 600px;
-    font-weight: bold;
-    font-size: 24px;
     position: relative;
     
 }
 
+.footer{
+    background-color: #fc765d;
+    width: 100%;
+    height: 100px;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+
+    
+}
 
 </style>
+
+    <!-- BootStrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- BootStrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Jquery 3.7.1-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
 
     <jsp:include page="../common/menubar.jsp" />
 
-
     <div class="outer">
 		<br><br>
+        <div class="input-area">
         <form action="insert.me" method="post">
         <table align="center">
             <tr>
@@ -128,11 +149,11 @@
                 <td><input type="text" name="email" placeholder="이메일을 입력해주세요."></td>
             </tr>
         </table>
-
+    </div>
         <br>
 
         <div align="center">
-            <button type="submit" style="border: none; background-color: #fc765d; color: white; width: 250px; height: 35px;" >회원가입</button>
+            <button type="submit" style="border-radius: 10px; border: none; background-color: #fc765d; color: white; width: 250px; height: 35px;" >회원가입</button>
         </div>
     </div>
     <!-- The Modal -->
@@ -159,8 +180,9 @@
       </div>
     </div>
   </div>
-  <div class="">
-    
+  <div class="footer">
+        <>우마이 | 주소 | 전화번호 | 이메일</>
+        <div align="margin">사업자 | 개인정보처리방침 | 이용약관</div>
   </div>
   </form>
 </body>
