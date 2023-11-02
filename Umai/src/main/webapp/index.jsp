@@ -123,9 +123,6 @@
 </head>
 
 <body>
-	<a href="views/member/memberEnrollForm.jsp">asd</a>
-	<a href="views/announce/announceDetailView.jsp">as</a>
-    <a href="views/faq/faqEnrollForm.jsp">aaa</a>
 
 </body>
 </html>

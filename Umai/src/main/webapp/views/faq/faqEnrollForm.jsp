@@ -53,5 +53,8 @@
         <button type="button" style="border-radius: 10px; border: none; background-color: #fc765d; color: white; width: 250px; height: 35px;">등록하기</button>
     </div> <br><br><br><br><br>
 </div>
+<div>
+
+</div>
 </body>
 </html>

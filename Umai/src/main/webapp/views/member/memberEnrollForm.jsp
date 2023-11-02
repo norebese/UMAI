@@ -89,7 +89,11 @@ html,body,
 .input-area{
     display: flex;
     justify-content: center;
-
+    margin-bottom: 10px;
+        margin-top: 10px;
+        outline: 0;
+        padding: 4px;
+        border-radius: 9px;
     
 }
 
@@ -112,6 +116,7 @@ html,body,
     <jsp:include page="../common/menubar.jsp" />
 
     <div class="outer">
+        <h1>회원가입</h1>
 		<br><br>
         <div class="input-area">
         <form action="insert.me" method="post">
@@ -181,8 +186,8 @@ html,body,
     </div>
   </div>
   <div class="footer">
-        <>우마이 | 주소 | 전화번호 | 이메일</>
-        <div align="margin">사업자 | 개인정보처리방침 | 이용약관</div>
+        <div>우마이 | 주소 | 전화번호 | 이메일</div>
+        <div>사업자 | 개인정보처리방침 | 이용약관</div>
   </div>
   </form>
 </body>

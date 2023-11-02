@@ -10,8 +10,14 @@
     .outer {
         background-color: rgb(255, 210, 210);
         width: 100%;
-        height: 600px;
-        
+        height: 600px;       
+    }
+    textarea{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        outline: 0;
+        padding: 4px;
+        border-radius: 9px;
     }
     
 </style>
@@ -23,7 +29,7 @@
     <div class="outer">
         <br>
         <h1 align="center" style="color: #fc765d;">공지사항</h1>
-
+		
         <form action="" method="post">
          <div align="center"> 
             
