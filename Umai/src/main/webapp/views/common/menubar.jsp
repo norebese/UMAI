@@ -46,7 +46,7 @@
     position: absolute;
     right: -40px;
     top: -55px;
-    width: 200px;
+    width: 100px;
     height: 200px;
     cursor: pointer;
 }

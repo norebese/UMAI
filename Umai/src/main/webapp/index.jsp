@@ -121,11 +121,6 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 </head>
-<<<<<<< HEAD
-<body>
-	<a href="views/member/memberEnrollForm.jsp">asd</a>
-	<a href="views/announce/announceDetail.jsp">as</a>
-=======
 <body class="main">
         <div class="plate1" align="center">
             <div class="plate2">
@@ -236,10 +231,5 @@
             </div>
         </div>
 
-
-
-
- 
->>>>>>> 1dd45e24b1fc60c2d6da3f4e1576b765f7e01bf2
 </body>
 </html>
