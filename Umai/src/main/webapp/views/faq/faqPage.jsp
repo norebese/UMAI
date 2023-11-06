@@ -6,9 +6,14 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <style>
+  html body{
+		height: 100%;
+		width: 100%;
+		background-color: rgb(255, 210, 210);
+	}
   .guideBox{
     background-color: rgb(255, 210, 210);
-    height: 394px;
+    height: 100%;
   }
   #faqQuestion {
     display: flex;
@@ -54,35 +59,26 @@
     scroll-behavior: auto !important;
   }
   .insertBtn-area{
-    position: relative;
-    top: 50px;
-    left: 850px;
+    /* position: relative; */
+    /* float: right; */
     display: flex;
-    background: #fc765d;
-    height: 30px;
+    /* background: #fc765d; */
+    /* height: 25px; */
     width: 100px;
-    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5px;
+    /* justify-content: center; */
+    background-color: rgb(255, 210, 210);
     
   }
   .insertBtn{
-    display: flex;
+    position: relative;
+    left: 91%;
     border: none;
-    background: #fc765d;
+    background-color: #fc765d;
     color: white;
   }
-  .footer{
-		background: #fc765d;
-		box-sizing: border-box;
-		width: 100%;
-		height: 160px;
-		margin: 0px;
-		padding: 0px;
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		
-	}
     </style>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -210,17 +206,12 @@
       </ul>
 
         <div class="insertBtn-area">
-          <button class="insertBtn">등록하기</button>
+          <button class="insertBtn">faq 등록하기</button>
         </div>
-
+      
   </div>
 
-  <div class="footer">
-		<h6>
-			우마이 | 주소 | 전화번호 | 이메일 <br>
-			사업자 | 개인정보처리방침 | 이용약관
-		</h6>
-	</div>
+  
 	<script>
  
     $(document).on("click", ".slide", function () {
