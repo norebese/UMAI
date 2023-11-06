@@ -139,8 +139,7 @@
 		align-items: center;
 	}
 	.noResult{
-		position: relative;
-		bottom: -20px;
+		padding-top: 20px;
 		display: block;
 		height: 50px;
 		justify-content: center;
@@ -256,9 +255,9 @@
 		<div class="noResult">
 			찾는 식당이 없으신가요? 그렇다면 등록해 보세요!
 		</div>
-		<div>
-			<button class="insert-btn">식당 등록하기</button>
-		</div>
+		<button class="insert-btn">
+			<span>식당 등록하기</span>
+		</button>
 	</div>
 	
 	<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#findId">

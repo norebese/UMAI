@@ -79,6 +79,21 @@
     background-color: #fc765d;
     color: white;
   }
+  .footer{
+    margin-top: 15px;
+    background-color: #fc765d;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 100%;
+    margin: 0;
+  }
+  .footer span{
+    font-size: 13px;
+    display: block;
+    padding-bottom: 7px;
+    font-weight: 300;
+    word-break: keep-all;
+  }
     </style>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
@@ -209,6 +224,16 @@
           <button class="insertBtn">faq 등록하기</button>
         </div>
       
+  </div>
+
+  <div class="footer">
+    
+    <div>
+      <span>주소 : 서울특별시 용산구 원효로90길 11, 더프라임타워<br/>
+        TEL : 02-2038-4792<i></i>FAX: 02-2038-4794<br/>
+        E-mail : ehddls1029@naver.com</span>
+      
+    </div>
   </div>
 
   
