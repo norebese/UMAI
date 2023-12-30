@@ -1,12 +1,12 @@
-# Would, U?
-> 친구와 함께 일기를 작성하고 서로의 감정을 돌아볼 수 있는 서비스
+# UMAI
+> 사용가자 직접 평가하는 식당 리뷰 사이트
 
 ## 프로젝트 개요
 
 ![로고](./front/public/mainlogo.png)
 
 - 개발 기간: 2023-00-00 ~ 2023-00-00
-- 서비스 링크: [https://www.naver.com](https://www.naver.com)
+- 개발 링크: [https://www.naver.com](https://www.naver.com)
 - 본 프로젝트의 구조를 더 자세히 알고 싶다면?
   - [백엔드 README](./BACK.md)
   - [프론트엔드 README](./FRONT.md)
@@ -28,6 +28,7 @@
 <img src="https://img.shields.io/badge/Nest.js-E0234E?style=flat-square&logo=Nestjs&logoColor=white">
 <img src="https://img.shields.io/badge/Typescript-3178C6?style=flat-square&logo=Typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/mysql-4479A1?style=flat-square&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/spring-6DB33F?style=flat-square&logo=spring&logoColor=white">
 
 `Communication`
 <img src="https://img.shields.io/badge/notion-000000?style=flat-square&logo=notion&logoColor=white">
