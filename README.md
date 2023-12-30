@@ -43,33 +43,12 @@
 
 ## 실행 방법
 
-1. 프로젝트 레포지토리를 클론합니다.
-
-```sh
-$ git clone https://kdt-gitlab.elice.io/ai_track/class05/ai_project/team05/team05.git
-```
-
-2. 프로젝트 실행에 필요한 패키지를 설치합니다.
-
-```sh
-$ cd front
-$ npm i
-
-$ cd back
-$ npm i
-```
-
-3. development server을 실행합니다.
-```sh
-$ npm run dev
-# or
-$ yarn dev
-```
+메이븐, 톰켓, 스프링 쓴거 다운받고 실행하는 방법 친절하게 알려주기기
 
 ## 주요 기능
 
 ### ✏ 소중한 사람과 **공용 일기장**을 만들어 서로의 일상을 공유할 수 있어요.  
-  <img src="" height="300">
+  <img src="" height="300"> 폴더하나 만들어서 경로 써주면 됨
   <img src="" height="300">
   <img src="" height="300">
   <img src="" height="300">
@@ -118,8 +97,7 @@ $ yarn dev
 
 | 이름 | 포지션 | Contact |
 | --- | --- | --- |
-| 최지원 | AI | a1@gmail.com |
-| 최지투 | BE | a1@gmail.com |
-| 최지삼 | FE | a1@gmail.com |
-| 최지사 | FE | a1@gmail.com |
-| 최지오 | FE | a1@gmail.com |
+| 김동인 | 담당역할 또는 기능 맡은거 |  https://github.com/norebese |
+| 이지혜 | DB관리자 | (https://github.com/heu0808) |
+| 전재현  | 조장 | (https://github.com/Noej10) |
+| 고이환  |  |  https://github.com/KoYeeHwan |
