@@ -118,8 +118,7 @@ $ yarn dev
 
 | 이름 | 포지션 | Contact |
 | --- | --- | --- |
-| 최지원 | AI | a1@gmail.com |
-| 최지투 | BE | a1@gmail.com |
-| 최지삼 | FE | a1@gmail.com |
-| 최지사 | FE | a1@gmail.com |
-| 최지오 | FE | a1@gmail.com |
+| 김동인  | 자기가 맡은 역할 또는 기능 담 |  https://github.com/norebese |
+| 이지혜  | BE | https://github.com/heu0808 |
+| 전재현  | FE | https://github.com/Noej10 |
+| 고이환  | FE | https://github.com/KoYeeHwan |
